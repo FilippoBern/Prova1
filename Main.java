@@ -8,9 +8,7 @@ public static void main(String[] args) {
 		System.out.println("Sono stati registrati " + stockdata.getNumberOfrecords() + " records");
 		for (int i=0; i<stockdata.getNumberOfrecords(); i++) {
 		 System.out.println(stockdata.getRecordNumber(i));
-		}
-		String table=null;
-			RestituisceMetadati.getTableMetaData(table);		
+			{		
 		 
 }
 		/*try {
